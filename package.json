@@ -1,0 +1,31 @@
+{
+  "name": "ahj-hw-3.1-sse-chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "14.17.3"
+  },
+  "repository": "git+https://github.com/EkaterinaAkhmetzyanova/ahj-hw-3.1-sse-chat-backend.git",
+  "author": "Ekaterina Akhmetzyanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaAkhmetzyanova/ahj-hw-3.1-sse-chat-backend/issues"
+  },
+  "homepage": "https://github.com/EkaterinaAkhmetzyanova/ahj-hw-3.1-sse-chat-backend#readme",
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^8.0.0",
+    "yarn": "^1.22.11"
+  }
+}
